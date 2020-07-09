@@ -1,0 +1,183 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    color:#626262;
+
+}
+/*header start*/
+header{
+	padding: 25px 0;
+}
+.container {
+	width: 90%;
+	margin: 0px auto;
+	overflow: hidden;
+
+}
+.logo {
+	margin-top: 3px;
+	width: 13%
+	float: left;
+}
+.logo img{
+	width:%;
+}
+.menu {
+	width:70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style:  none;
+	float: left;
+}
+.menu ul li a{
+	margin:  0 50px;
+	padding: 10px 0;
+	color:#626262;
+	text-decoration: none;
+	text-transform:uppercase;
+	display:inline-block;
+	transition: .3s;
+	border: 1px solid transparent;
+
+
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262;
+}
+
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding: 60px 0;
+}
+.container_2{
+	/*border: 1px solid red;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.p_wrapper{}
+.c_p{
+	margin:0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:14px ;
+	font-weight: 300;
+	color:#b4ad9e;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin-top: 20px;
+	margin-bottom: 30px; 
+	font-size:30px;
+	font-weight: 400;
+}
+.c_text{
+	margin-bottom: 40px;
+	line-height: 25px;
+}
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding-top: 60px 0;
+}
+.single{
+	width: 47%;
+	/*border:1px solid blue;*/
+	float: left;
+	margin-bottom: 50px;
+}
+.single:nth-child(even){
+margin-left:6%;
+}
+.single img{
+	width: 100%;
+	padding-bottom: 20px; 
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter {
+	padding: 120px 0;
+	background-color: #f0f0f0;
+}
+.signup {
+	text-align: center;
+}
+.signup h1{
+	margin-top: 0;
+	margin-bottom: 80px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+.signup_form {
+	margin: 0 auto;
+	width: 350px;
+	position: relative;
+}
+.signup_form input{
+	padding: 10px;
+	padding-right: 32px;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+	width: 88%;
+	border: 0;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+}
+.signup_form button{
+	position: absolute;
+	bottom: 25%;
+	right: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	outline: none;
+}
+/*newsletter end*/
+/*load more start*/
+.load{
+	padding: 60px 0;
+	text-align: center;
+}
+.load button{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	width: 160px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	outline: none;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.load button:hover{
+	color:#fff;
+	background-color: #626262;
+}
+/*load more end*/
+/*fotter start*/
+
+/*fotter end*/
